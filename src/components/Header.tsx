@@ -76,10 +76,10 @@ export default function Header() {
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3 flex-shrink-0">
           <a
-            href="tel:XXXXXXXXXX"
+            href="tel:6198150443"
             className="text-sm font-medium text-white/80 hover:text-white transition-colors border border-white/25 hover:border-white/50 px-4 py-2 rounded"
           >
-            ☎ (XXX) XXX-XXXX
+            ☎ (619) 815-0443
           </a>
           <Link
             href="/contact"
@@ -126,10 +126,10 @@ export default function Header() {
           ))}
           <div className="pt-4 flex flex-col gap-3">
             <a
-              href="tel:XXXXXXXXXX"
+              href="tel:6198150443"
               className="text-center border border-white/25 text-white py-3 rounded font-medium"
             >
-              ☎ (XXX) XXX-XXXX
+              ☎ (619) 815-0443
             </a>
             <Link
               href="/contact"

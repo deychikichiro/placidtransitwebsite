@@ -55,9 +55,9 @@ export const faqs = [
       "Yes. Placid Transit LLC is a registered and insured moving company. Your belongings are covered throughout the move.",
   },
   {
-    question: "Do you do long-distance moves outside the tri-state area?",
+    question: "How far do you travel for a move?",
     answer:
-      "Our primary service area is Illinois, Indiana, and Wisconsin. For moves outside this region, please contact us to discuss — we may be able to accommodate based on scheduling.",
+      "We serve all of Illinois including Chicago and suburbs, plus Indiana and Wisconsin border areas. We do not currently offer moves outside this region.",
   },
   {
     question: "Can you handle commercial and office relocations?",
@@ -113,7 +113,7 @@ export default function FAQPage() {
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
             <a
-              href="tel:XXXXXXXXXX"
+              href="tel:6198150443"
               className="border border-brand-charcoal/25 hover:border-brand-red text-brand-charcoal hover:text-brand-red font-medium px-6 py-3 rounded text-sm transition-colors"
             >
               ☎ Call Us

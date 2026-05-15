@@ -5,7 +5,7 @@ import { services } from "@/data/services";
 export const metadata: Metadata = {
   title: "Moving Services",
   description:
-    "Placid Transit LLC offers local moving, long-distance moving, commercial moving, specialty moving, packing, junk removal, and free handyman services in Chicago, IL.",
+    "Placid Transit LLC offers local moving, commercial moving, specialty moving, packing, junk removal, and free handyman services in Chicago, IL and surrounding areas.",
 };
 
 export default function ServicesPage() {

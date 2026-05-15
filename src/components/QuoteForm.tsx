@@ -22,7 +22,7 @@ const steps: Step[] = [
     hint: "Select the one that best describes your situation.",
     options: [
       { label: "Local Move", icon: "🏠", value: "Local Move" },
-      { label: "Long-Distance", icon: "🚛", value: "Long-Distance Move" },
+      { label: "Regional Move", icon: "🚛", value: "Regional Move" },
       { label: "Commercial", icon: "🏢", value: "Commercial Move" },
       { label: "Specialty Item", icon: "🎹", value: "Specialty Move" },
       { label: "Junk Removal", icon: "🗑️", value: "Junk Removal" },
@@ -180,8 +180,8 @@ export default function QuoteForm() {
           </p>
           <p className="text-gray-400 text-sm mb-8">
             In the meantime, feel free to call us directly at{" "}
-            <a href="tel:XXXXXXXXXX" className="text-brand-red font-semibold">
-              (XXX) XXX-XXXX
+            <a href="tel:6198150443" className="text-brand-red font-semibold">
+              (619) 815-0443
             </a>
           </p>
           <a

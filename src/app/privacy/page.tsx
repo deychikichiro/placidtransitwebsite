@@ -140,8 +140,8 @@ export default function PrivacyPage() {
                   <p>Chicago, IL</p>
                   <p>
                     Phone:{" "}
-                    <a href="tel:XXXXXXXXXX" className="text-brand-red hover:underline">
-                      (XXX) XXX-XXXX
+                    <a href="tel:6198150443" className="text-brand-red hover:underline">
+                      (619) 815-0443
                     </a>
                   </p>
                   <p>

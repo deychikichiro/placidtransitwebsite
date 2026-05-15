@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const serviceLinks = [
   { href: "/services/local-moving", label: "Local Moving" },
-  { href: "/services/long-distance-moving", label: "Long-Distance Moving" },
+  { href: "/services/regional-moving", label: "Regional Moving" },
   { href: "/services/commercial-moving", label: "Commercial Moving" },
   { href: "/services/specialty-moving", label: "Specialty Moving" },
   { href: "/services/packing-unpacking", label: "Packing & Unpacking" },
@@ -38,8 +38,8 @@ export default function Footer() {
             <p className="text-white/50 text-sm leading-relaxed mb-5">
               Professional moving services across Chicago, IL and surrounding areas. Trusted, careful, and always on time.
             </p>
-            <a href="tel:XXXXXXXXXX" className="text-brand-beige font-semibold text-sm hover:text-white transition-colors">
-              ☎ (XXX) XXX-XXXX
+            <a href="tel:6198150443" className="text-brand-beige font-semibold text-sm hover:text-white transition-colors">
+              ☎ (619) 815-0443
             </a>
             <p className="text-white/40 text-xs mt-1">Available 7 days a week</p>
           </div>

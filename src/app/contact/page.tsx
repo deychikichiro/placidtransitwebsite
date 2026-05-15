@@ -48,10 +48,10 @@ export default function ContactPage() {
                 Call Us
               </h3>
               <a
-                href="tel:XXXXXXXXXX"
+                href="tel:6198150443"
                 className="text-brand-red font-semibold text-sm hover:text-brand-red-dark transition-colors"
               >
-                (XXX) XXX-XXXX
+                (619) 815-0443
               </a>
               <p className="text-gray-400 text-xs mt-1">7 days a week</p>
             </div>

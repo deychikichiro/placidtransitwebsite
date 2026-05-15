@@ -1,26 +1,6 @@
 import Link from "next/link";
 import { services } from "@/data/services";
 
-const testimonials = [
-  {
-    name: "Maria K.",
-    location: "Chicago, IL",
-    text: "Placid Transit moved our entire 3-bedroom house without a single scratch. The team was professional, fast, and even mounted our TVs before they left. Absolutely recommend.",
-    stars: 5,
-  },
-  {
-    name: "James T.",
-    location: "Schaumburg, IL",
-    text: "Used them for our office relocation. They worked over the weekend so we didn't lose a single business day. Flawless execution.",
-    stars: 5,
-  },
-  {
-    name: "Sasha R.",
-    location: "Evanston, IL",
-    text: "They moved my grand piano. I was terrified, but they had the right equipment and knew exactly what they were doing. Not one scratch. Worth every penny.",
-    stars: 5,
-  },
-];
 
 const whyUs = [
   {
@@ -134,17 +114,17 @@ export default function HomePage() {
                 Get Your Free Quote →
               </Link>
               <a
-                href="tel:XXXXXXXXXX"
+                href="tel:6198150443"
                 className="inline-flex items-center gap-2 border border-white/30 hover:border-white/60 text-white font-medium px-7 py-3.5 rounded text-base transition-colors"
               >
-                ☎ (XXX) XXX-XXXX
+                ☎ (619) 815-0443
               </a>
             </div>
 
             {/* Service checkmarks */}
             <div className="flex flex-wrap gap-x-8 gap-y-2">
               {[
-                "✓ Local & Long-Distance",
+                "✓ Local Moving",
                 "✓ Commercial Moving",
                 "✓ Specialty Moving",
                 "✓ Junk Removal",
@@ -331,39 +311,34 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── TESTIMONIALS ── */}
+      {/* ── REVIEWS ── */}
       <section className="py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-14">
-            <span className="inline-block text-xs font-bold tracking-widest uppercase text-brand-red mb-3">
-              Reviews
-            </span>
-            <h2
-              className="text-brand-charcoal"
-              style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(1.9rem, 4vw, 2.8rem)" }}
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <span className="inline-block text-xs font-bold tracking-widest uppercase text-brand-red mb-3">
+            Reviews
+          </span>
+          <h2
+            className="text-brand-charcoal mb-4"
+            style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(1.9rem, 4vw, 2.8rem)" }}
+          >
+            We&apos;re Just Getting Started
+          </h2>
+          <p className="text-gray-500 text-base mb-8 max-w-md mx-auto">
+            Placid Transit is a newly launched company. After your move, we&apos;d love a Google review — it means everything to a new small business.
+          </p>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <Link
+              href="/contact"
+              className="bg-brand-red hover:bg-brand-red-dark text-white font-semibold px-7 py-3.5 rounded text-base transition-colors"
             >
-              What Our Customers Say
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {testimonials.map((t) => (
-              <div
-                key={t.name}
-                className="bg-brand-beige-light rounded-xl p-8 border border-brand-beige-dark"
-              >
-                <div className="flex gap-0.5 mb-4">
-                  {Array.from({ length: t.stars }).map((_, i) => (
-                    <span key={i} className="text-brand-red text-base">★</span>
-                  ))}
-                </div>
-                <p className="text-gray-700 text-sm leading-relaxed mb-5 italic">&quot;{t.text}&quot;</p>
-                <div>
-                  <p className="font-semibold text-brand-charcoal text-sm">{t.name}</p>
-                  <p className="text-gray-400 text-xs">{t.location}</p>
-                </div>
-              </div>
-            ))}
+              Book Your Move →
+            </Link>
+            <a
+              href="tel:6198150443"
+              className="border border-brand-charcoal/20 hover:border-brand-red text-brand-charcoal hover:text-brand-red font-medium px-7 py-3.5 rounded text-base transition-colors"
+            >
+              ☎ (619) 815-0443
+            </a>
           </div>
         </div>
       </section>
@@ -419,7 +394,7 @@ export default function HomePage() {
               Get a Free Quote →
             </Link>
             <a
-              href="tel:XXXXXXXXXX"
+              href="tel:6198150443"
               className="border-2 border-white/50 hover:border-white text-white font-medium px-8 py-4 rounded text-base transition-colors"
             >
               ☎ Call Now

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Placid Transit LLC",
   },
   description:
-    "Placid Transit LLC offers professional local, long-distance, commercial, specialty, junk removal, and handyman moving services in Chicago, IL and surrounding areas including Indiana and Wisconsin borders.",
+    "Placid Transit LLC offers professional local, regional, commercial, specialty, junk removal, and handyman moving services in Chicago, IL and surrounding areas including Indiana and Wisconsin borders.",
   keywords: [
     "moving company Chicago",
     "movers Chicago suburbs",
