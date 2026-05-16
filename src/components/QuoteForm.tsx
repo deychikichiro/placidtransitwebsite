@@ -159,7 +159,15 @@ export default function QuoteForm() {
 
   const handleSubmit = async () => {
     setSubmitting(true);
-    await new Promise((r) => setTimeout(r, 1200));
+    try {
+      await fetch("/api/quote", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(answers),
+      });
+    } catch (e) {
+      console.error(e);
+    }
     setSubmitting(false);
     setSubmitted(true);
   };
